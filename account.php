@@ -193,7 +193,7 @@ include "DBconnection.php";
     </div>
 </div>
 </body>
-</html>>>>>
+</html>
 	<script type="text/javascript">
 function conf()
 {
@@ -229,4 +229,4 @@ var con=confirm("You Must Log In First. Thank You !");
 </script> 
  
 </body>
-</html>>>>>>>>>>>>>>>>>>>>
+</html>
