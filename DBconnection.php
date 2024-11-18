@@ -7,11 +7,11 @@
 
 <body>
 
-<?php $dbhost='localhost';
+<?php $dbhost='db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com';
 
-$dbuser='root';
+$dbuser='doadmin';
 
-$dbpass='';
+$dbpass='AVNS_bCii5x9geE9Vu7OomJJ';
 
 $conn=mysqli_connect($dbhost,$dbuser,$dbpass);
 if(!$conn){
@@ -22,7 +22,7 @@ echo'<br>';
 
 //select the database
 
-$db= mysqli_select_db($conn,'sampath_store');
+$db= mysqli_select_db($conn,'defaultdb');
 if(!$db){
 echo'select database first';
 }else 

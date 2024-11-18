@@ -1,6 +1,7 @@
 <?php
 
-$mysqli = new mysqli('localhost','root','','sampath_store') or die(mysqli_error($mysqli));
+$mysqli = new mysqli("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb") or die(mysqli_error($mysqli));
+ 
 
 
 $targetDir = "images/Baverages/";
