@@ -1,6 +1,6 @@
 <?php   
  session_start();  
- $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
+ $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com:25060", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
  include "DBconnection.php";  
 if(!isset($_SESSION['name']))
 {

@@ -7,7 +7,7 @@
 
 <body>
 
-<?php $dbhost='db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com';
+<?php $dbhost='db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com:25060';
 
 $dbuser='doadmin';
 

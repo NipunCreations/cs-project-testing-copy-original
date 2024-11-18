@@ -1,7 +1,7 @@
 <?php error_reporting(0); ?>
 <?php   
  session_start();  
- $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
+ $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com:25060", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
  include "DBconnection.php";  
 if(!isset($_SESSION['name']))
 {
@@ -30,7 +30,7 @@ else
 	 	}
 		if($row >0)
 		{	
-		$mysqli = new mysqli('localhost','root','','minsara_super') or die(mysqli_error($mysqli));	
+		$mysqli = new mysqli("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com:25060", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb") or die(mysqli_error($mysqli));	
 		$result =  $mysqli->query("SELECT * FROM tbl_order WHERE customer_id ='" . $id."'")or die ($mysqli->erorr);	
 		
 		$id = $_SESSION['id'];	 

@@ -1,7 +1,7 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com');
+define('DB_SERVER', 'db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com:25060');
 define('DB_USERNAME', 'doadmin');
 define('DB_PASSWORD', 'AVNS_bCii5x9geE9Vu7OomJJ');
 define('DB_NAME', 'defaultdb');
