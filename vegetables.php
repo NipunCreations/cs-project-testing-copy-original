@@ -12,7 +12,7 @@ else
 		$name=$_SESSION['name'];
 		 
 	 
-	$mysqli = new mysqli('localhost','root','','minsara_super') or die(mysqli_error($mysqli));
+	$mysqli = new mysqli("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb") or die(mysqli_error($mysqli));
 	$result  = $mysqli->query("SELECT * FROM vegetables") or die ($mysqli->erorr);	
  
 }
