@@ -1,7 +1,7 @@
 <?php   
  session_start();  
  $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
-  
+ 
 include "DBconnection.php";
  ?>
 <!DOCTYPE html>
@@ -154,7 +154,7 @@ include "DBconnection.php";
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="images/logo-white.png" alt="">
+                <img src="images/MinsaraLogo.png" alt="">
                 <p>Download app for android and ios mobile phones</p>
             </div>
             <div class="footer-col-3">

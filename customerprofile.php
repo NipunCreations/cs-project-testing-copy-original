@@ -229,7 +229,7 @@ else
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="images/logo-white.png" alt="">
+                <img src="images/MinsaraLogo.png" alt="">
                 <p>Download app for android and ios mobile phones</p>
             </div>
             <div class="footer-col-3">

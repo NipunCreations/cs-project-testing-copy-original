@@ -2,7 +2,7 @@
 <?php   
  session_start();  
  $connect = mysqli_connect("db-mysql-nyc3-95016-do-user-18344030-0.i.db.ondigitalocean.com", "doadmin", "AVNS_bCii5x9geE9Vu7OomJJ", "defaultdb");  
-include "DBconnection.php";  
+ include "DBconnection.php";  
 if(!isset($_SESSION['name']))
 {
 	header("location:product.php");
@@ -29,7 +29,7 @@ else
 	 	}
 		if($row >0)
 		{	
-		$mysqli = new mysqli('localhost','root','','sampath_store') or die(mysqli_error($mysqli));	
+		$mysqli = new mysqli('localhost','root','','minsara_super') or die(mysqli_error($mysqli));	
 		$result =  $mysqli->query("SELECT * FROM tbl_order WHERE customer_id ='" . $id."'")or die ($mysqli->erorr);	
 	
 			 
@@ -235,7 +235,7 @@ else
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="images/logo-white.png" alt="">
+                <img src="images/MinsaraLogo.png" alt="">
                 <p>Download app for android and ios mobile phones</p>
             </div>
             <div class="footer-col-3">

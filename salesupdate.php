@@ -12,7 +12,7 @@ else
 		$name=$_SESSION['name'];
 		 
 	 
-	$mysqli = new mysqli('localhost','root','','sampath_store') or die(mysqli_error($mysqli));
+	$mysqli = new mysqli('localhost','root','','minsara_super') or die(mysqli_error($mysqli));
 		$result  = $mysqli->query("SELECT * FROM tbl_sales") or die ($mysqli->erorr);		
  
 }
@@ -323,7 +323,7 @@ else
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png" alt="">
+                    <img src="images/MinsaraLogo.png" alt="">
                     <p>Download app for android and ios mobile phones</p>
                 </div>
                 <div class="footer-col-3">

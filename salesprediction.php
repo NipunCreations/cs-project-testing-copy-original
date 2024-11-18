@@ -169,7 +169,7 @@ $saverage = array_sum($a) / count($a);
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="images/logo-white.png" alt="">
+                    <img src="images/MinsaraLogo.png" alt="">
                     <p>Download app for Android and iOS mobile phones</p>
                 </div>
                 <div class="footer-col-3">
