@@ -4,15 +4,17 @@
  include "DBconnection.php";  
 if(!isset($_SESSION['name']))
 {
-	header("location:product.php");
+	header("location:products.php");
 }
 else
 	{
-		$name=$_SESSION['name'];
-		$id = $_SESSION["id"];
+
+        header("location:userLogout.php");
+		// $name=$_SESSION['name'];
+		// $id = $_SESSION["id"];
 	 
 		
-		$result = mysqli_query($conn,"SELECT * FROM tbl_customer WHERE CustomerID='" . $id."'");
+		// $result = mysqli_query($conn,"SELECT * FROM tbl_customer WHERE CustomerID='" . $id."'");
  
 }
 
